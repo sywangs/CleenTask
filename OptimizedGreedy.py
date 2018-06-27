@@ -112,7 +112,7 @@ totalShape,Profit = SetSqure(WInit,HInit,totalShape,Pos,0,0)
 
 for i in range(len(allSqure)):
     print (str(i) + "th squre: width " + str(allSqure[i][1]) + ",height " + str(allSqure[i][0]))
-print Profit
+print "Profit is " + str(Profit)
 im = array(totalShape)
 imshow(im)
 show()

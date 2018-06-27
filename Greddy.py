@@ -58,7 +58,7 @@ sortedSqure = SortAllsqureByPrice(h,w,p)
 Pos = (0,0)
 
 totalShape,Profit = SetSqure(WInit,HInit,totalShape,Pos,0)
-print Profit
+print "Profit is " + str(Profit)
 for i in range(len(allSqure)):
     print (str(i) + "th squre: width " + str(allSqure[i][1]) + ",height " + str(allSqure[i][0]))
 im = array(totalShape)
